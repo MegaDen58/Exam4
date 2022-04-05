@@ -7,7 +7,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
         System.out.print("Введите число x: ");
         double x = in.nextInt();
-        System.out.print("Введите количество шагов (n > 2): ");
+        System.out.print("Введите количество шагов (n >= 2): ");
         double n = in.nextInt();
         if(n < 2){
             System.out.println("Неверное значение n.");
